@@ -1,0 +1,11 @@
+สรุปความรู้ที่ได้
+
+1. CRUD Array (quotes.js) เรียนรู้การจัดการข้อมูลพื้นฐาน (CRUD) ผ่านฟังก์ชันที่ห่อหุ้ม Logic (Encapsulation) โดยใช้ Array เป็นศูนย์กลางเก็บข้อมูล (State) และฝึกใช้คำสั่ง .find(), .findIndex(), และ .splice()
+
+2. Student Roster (DOM Traversal) ฝึกสร้าง Element ใหม่ (createElement) และนำไปต่อในหน้าเว็บ (appendChild) เรียนรู้วิธี "ไต่" DOM (Traversal) เพื่อหา พ่อ (parentElement) และ พี่น้อง (next/previousSibling) และรู้วิธีเพิ่ม class หรือ id ให้ Element ด้วย .setAttribute()
+
+3. UI Interaction (classList & dataset) เข้าใจการ "วาด" หน้าเว็บ (UI) จาก "ข้อมูล" (Data) ด้วยฟังก์ชัน render ใช้ classList.toggle() ให้ JS สลับ class เพื่อให้ CSS เปลี่ยนสไตล์ และใช้ dataset เพื่อฝังข้อมูล (เช่น 'red', 'blue') ไว้ในปุ่ม HTML
+
+4. Form & Key Logger (Events) เรียนรู้ Event 2 แบบ: submit (สำหรับฟอร์ม) และ keyup (สำหรับคีย์บอร์ด) ต้องใช้ preventDefault() เพื่อหยุดไม่ให้ฟอร์ม "รีโหลดหน้า" และฝึกตรวจสอบข้อมูล (Validation) เช่น เช็คค่าว่าง หรือรหัสผ่านตรงกัน
+
+5. Settings Form (localStorage) รู้วิธีใช้ localStorage เพื่อ "จำ" การตั้งค่า (เช่น สี) ไว้ในเบราว์เซอร์ ต้องใช้ JSON.stringify() (เซฟ) และ JSON.parse() (โหลด) เมื่อเก็บ Object และใช้ DOMContentLoaded เพื่อรอให้ HTML โหลดเสร็จก่อนรัน JS

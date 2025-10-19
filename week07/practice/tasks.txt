@@ -1,0 +1,22 @@
+Task 1: Add a New Student
+Find the <ul> element with the id student-list.
+Create a new <li> element.
+Create a new text node with the name "David".
+Append the text node to the new <li> element.
+Append the new <li> element to the end of the student-list (<ul>).
+
+Task 2: Add a Transfer Student with an ID
+Create another new <li> element.
+Set its text content to "Eve".
+Using setAttribute(), give this new <li> element an id of transfer-student.
+Append this new <li> element to the student-list.
+
+Task 3: Analyze "Bob"
+Find the <li> element containing "Bob". (A good way to do this is to get all children of the student-list and access the second one, e.g., list.children[1]).
+Log "Bob's" parentElement (which should be the <ul>).
+Log "Bob's" previousElementSibling (which should be "Alice").
+Log "Bob's" nextElementSibling (which should be "Charlie").
+
+Task 4: Highlight "Charlie"
+Find the <li> element containing "Charlie".
+Using setAttribute(), add a class attribute to it with the value highlight. (The CSS in the <head> will then style it).

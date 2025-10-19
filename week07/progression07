@@ -1,0 +1,7 @@
+ความรู้ที่ได้
+
+-รู้วิธี สร้าง Element ใหม่ (createElement) และ ต่อเข้าเว็บ (appendChild)
+-รู้วิธี เข้าถึง Element ที่ต้องการ (getElementById, .children)
+-รู้วิธี หา Element ข้างเคียง เช่น parentElement หรือ next/previousElementSibling
+-รู้วิธี เพิ่ม/แก้ไข Attribute ของ HTML เช่น id หรือ class
+-เข้าใจการ ใช้ JS เพิ่ม Class เพื่อให้ CSS ที่เตรียมไว้ทำงาน (Dynamic Styling)
